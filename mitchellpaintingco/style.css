@@ -1,0 +1,466 @@
+    @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+    @font-face {
+        font-family: logofont;
+        src: url("fonts/PoloBrush.ttf");
+    }
+    /*----header----*/
+    
+    body {
+        background-color: #fff;
+    }
+    
+    .header-box {
+        width: 100%;
+        z-index: 100;
+        position: fixed;
+        background-color: white;
+        padding-top: 4%;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+    }
+    
+    .header-box:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    
+    .headerhalf-box {
+        margin: 0;
+        height: auto;
+        float: left;
+        width: 50%;
+        text-align: center;
+        z-index: 100;
+    }
+    
+    .headerhalf-box a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #logo {
+        font-family: logofont;
+        font-size: 2.5rem;
+        color: black;
+    }
+    
+    nav ul {
+        margin-top: 10%;
+    }
+    
+    .navlist li {
+        display: inline;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+    
+    .navlist li a {
+        font-family: Quattrocento, sans-serif;
+    }
+    
+    .headerhalf-box a:link {
+        color: black;
+    }
+    
+    .headerhalf-box a:hover {
+        color: grey;
+    }
+    
+    .headerbackgroundbox {
+        width: 100%;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+        padding-bottom: 13.5%;
+    }
+    /*----end of header---*/
+    /*---main box----*/
+    
+    .main-homepage {
+        margin-top: 0;
+        background-image: url(images/house-paint.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+    }
+    
+    .main-aboutpage {
+        margin-top: 0;
+        background-image: url(images/fotolia_137887_subscription_l.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+    }
+    
+    .main-servicespage {
+        margin-top: 0;
+        background-image: url(images/paint-colors.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+    }
+    
+    .main-contactpage {
+        margin-top: 0;
+        background-image: url(images/red-paint.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+    }
+    
+    .main-content-box {
+        width: 35%;
+        border-radius: 8px;
+        margin-bottom: 6%;
+        box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75);
+        background-color: #fff;
+        float: left;
+        padding: 2%;
+        margin: 4%;
+    }
+    
+    .main-contactpage .main-content-box {
+        margin: 2%
+    }
+#p-one{font-family: Quattrocento, sans-serif;
+        line-height: 170%;
+         font-size: 1.1rem;}
+    #p-oneabout {
+        float: left;
+        width: 50%;
+        font-family: Quattrocento, sans-serif;
+        line-height: 170%;
+         font-size: 1.1rem;
+    }
+    
+    #p-oneservices {
+        float: left;
+        width: 25%;
+        font-family: Quattrocento, sans-serif;
+        line-height: 170%;
+    }
+    
+    #p-two {
+        position: relative;
+        top: 4%;
+        font-family: Quattrocento, sans-serif;
+        line-height: 150%;
+        font-size: 1.1rem;
+    }
+    
+    #p-twoabout {
+        float: right;
+        position: static;
+        margin: 0;
+        margin-top: 50px;
+        margin-right: 2%;
+        font-family: Quattrocento, sans-serif;
+        font-size: 1.1rem;
+        line-height: 150%;
+    }
+    
+    #p-twoservices {
+        width: 50%;
+        float: right;
+        position: static;
+        margin: 0;
+        margin-top: 50px;
+        margin-right: 5%;
+        font-family: Quattrocento, sans-serif;
+    }
+    
+    #p-twoservices ul li {
+        margin: 2%;
+    }
+    
+    #p-three {
+        position: relative;
+        top: -6%;
+        left: -4%;
+        text-align: center;
+    }
+    
+    #p-threeabout {
+        float: right;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    
+    #p-threeservices {
+        float: left;
+        margin-right: 500px;
+        text-align: center;
+    }
+    
+    .read-more {
+        float: right;
+        font-size: .9rem;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    .read-more {
+        color: black;
+    }
+    
+    .main-content-box a:hover {
+        color: gray;
+    }
+    
+    #freeestimate {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #freeestimate:hover {
+        color: gray;
+    }
+    
+    input[type=submit],
+    input[type=reset] {
+        width: 20%;
+        margin-left: 5%;
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .main-errorpage {
+        margin-top: 0;
+        background-image: url(images/paint-colors.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    #emailerror {
+        font-size: 5rem;
+    }
+    
+    .main-thankpage {
+        margin-top: 0;
+        background-image: url(images/1920x1080_color_paint_cans-1569807.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .main-thankpage .main-content-box {
+        width: 78%;
+        margin: 10%;
+        font-family: Quattrocento, sans-serif;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .main-errorpage .main-content-box {
+        width: 78%;
+        margin: 10%;
+        font-family: Quattrocento, sans-serif;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #emailthank {
+        font-size: 5rem;
+    }
+    
+    strong {
+        font-weight: bolder;
+    }
+    /*-----end of main box----*/
+    /*footer box*/
+    
+    .footer-box {
+        background-color: gray;
+        width: 100%;
+        border-width: .5px 0px .5px 0px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        color: #f0eff0;
+    }
+    
+    .footer-box:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    
+    .footer-half {
+        margin: 0;
+        height: auto;
+        float: left;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    /*----footer left-----*/
+    
+    .footer-left-half {
+        list-style: none;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-left-half p {
+        font-size: 1rem;
+        font-family: 'Helvetica', sans-serif;
+    }
+    /*----end of footer left---*/
+    /*------footer right-----*/
+    
+    .footer-right-half {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+    
+    #see-review {
+        font-size: 1.25rem;
+        font-family: Quattrocento, sans-serif;
+    }
+    
+    .but-list {
+        padding: 0;
+    }
+    
+    .but-list li {
+        display: inline-block
+    }
+    
+    .button {
+        border-style: solid;
+        border-width: .5px;
+        border-color: gray;
+        background-size: cover;
+        height: 40px;
+        width: 40px;
+    }
+    
+    #angieslist {
+        background-image: url(images/angieslist.png);
+    }
+    
+    #bbb {
+        background-image: url(images/bbb.png);
+    }
+    
+    #yelp {
+        background-image: url(images/yelp.png);
+    }
+    
+    form input {
+        border-width: 3px;
+    }
+    /*------end of footer right----*/
+    
+    @media screen and (max-width: 400px) {
+        .headerhalf-box {
+            margin: 0;
+            height: auto;
+            float: left;
+            width: 100vw;
+            text-align: center;
+            z-index: 100;
+        }
+        .navlist {
+            padding: 0;
+        }
+        .headerbackgroundbox {
+            padding-bottom: 40%;
+        }
+        .main-content-box {
+            width: 90%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75);
+            background-color: #fff;
+            padding: 1%;
+            box-sizing: border-box;
+        }
+        #p-one {
+            margin-top: 50px;
+        }
+        #p-two {
+            position: static;
+        }
+        #p-three {
+            position: static;
+        }
+        .footer-half {
+            height: auto;
+            float: left;
+            width: 100vw;
+        }
+        .footer-left-half {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        input[type=submit],
+        input[type=reset] {
+            width: 40%;
+            margin-left: 5%;
+            font-size: 1rem;
+            margin-bottom: 5%;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .main-content-box {
+            width: 90%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75);
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 1%;
+        }
+        #p-one {
+            margin-top: 50px;
+        }
+        #p-oneabout {
+            margin-top: 50px;
+            width: 90%;
+        }
+        #p-oneservices {
+            display: none;
+        }
+        #p-two {
+            position: static;
+        }
+        #p-twoabout {
+            display: none;
+        }
+        #p-twoservices {
+            width: 90%;
+            margin-right: 5%;
+        }
+        #p-three {
+            position: static;
+        }
+        #p-threeabout {
+            position: static;
+        }
+        #p-threeservices {
+            position: static;
+        }
+        #p-onecontact {
+            margin-top: 9%;
+        }
+    }
